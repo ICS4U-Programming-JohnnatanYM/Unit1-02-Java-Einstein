@@ -56,7 +56,7 @@ public final class Einstein {
             }
             //For string answers, or non numeric inputs
         } catch (NumberFormatException error) {
-            System.out.println("Please enter a valid log length. "
+            System.out.println("Please enter a valid mass amount. "
                 + error.getMessage());
         }
     }
